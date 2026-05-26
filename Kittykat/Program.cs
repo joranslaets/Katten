@@ -1,6 +1,9 @@
-var builder = WebApplication.CreateBuilder(args);
-var app = builder.Build();
+namespace Kittykat;
 
-app.MapGet("/", () => "Hello World!");
-
-app.Run();
+public class Kat
+{
+    public void Eet()
+    {
+        Console.WriteLine("De kat eet brokken.");
+    }
+}
